@@ -96,7 +96,7 @@ class HistorialController extends Controller
             'fecha' => now()->toDateString(),
             'cantidad' => $aretirar,
         ]);
-        return Inertia::render('Historial/index',['saldo' => Auth::user()->saldo,'retiro'=> $arraymensaje, 'excedido'=> 'exitoso']);
+        return Inertia::render('Historial/index',['saldo' => $totalsaldousuario,'retiro'=> $arraymensaje, 'excedido'=> 'exitoso']);
     }
 
     /**
