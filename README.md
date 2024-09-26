@@ -7,6 +7,3 @@
 - Por ultimo ejecutar las migraciones de laravel ( php artisan migrate ) y ejecutar el proyecto php artisan serve.
 - ademas inciciar el server para vue ( npm run dev )
 
-## Recordar iniciar el Proyecto en la Rama develop
-
-Cualquier duda o inquietud se pueden contactar conmigo. 
